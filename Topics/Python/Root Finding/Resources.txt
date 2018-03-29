@@ -1,0 +1,26 @@
+##################################################################################
+                   ****** VISTAAR-2017 ******* 
+				    	  ***** JULY-4 ******
+		            **** Advanced Python Modules ****
+			    		  **** RESOURCES ****
+					                       
+					           
+                         **** Python Modules ****
+					                       					                       
+					                       
+
+1.SYS(argv)      http://www.pythonforbeginners.com/system/python-sys-argv					                       
+					              
+2.MATPLOTLIB 	 https://matplotlib.org/2.0.2/api/pyplot_summary.html		
+
+3.SciPy Optimize https://docs.scipy.org/doc/scipy/reference/optimize.html
+                        
+                         **** Additional Resources (Optional) ****
+                         					                       
+1.REGEX   -       http://www.tldp.org/LDP/abs/html/x17129.html	                  
+2.RE In Python  - https://www.tutorialspoint.com/python/python_reg_expressions.htm     
+					                       
+					                                         
+################################################################################################				
+
+				

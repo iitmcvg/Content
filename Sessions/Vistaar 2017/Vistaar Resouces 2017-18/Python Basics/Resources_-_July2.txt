@@ -1,0 +1,11 @@
+                    
+                    ****** VISTAAR-2017 ******* 
+                      ***** PS1 JULY-2 ******
+                      **** PYTHON BASICS ****
+                        **** RESOURCES ****
+						
+Tutorials for python, numPy:
+    http://cs231n.github.io/python-numpy-tutorial/
+
+Exercises for numpy: 
+    http://www.labri.fr/perso/nrougier/teaching/numpy.100/

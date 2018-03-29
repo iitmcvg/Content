@@ -1,0 +1,31 @@
+
+
+Gradients :
+http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_gradients/py_gradients.html#gradients
+http://docs.opencv.org/2.4/modules/imgproc/doc/filtering.html?highlight=laplacian#laplacian
+http://docs.opencv.org/2.4/modules/imgproc/doc/filtering.html?highlight=sobel#sobel
+http://docs.opencv.org/2.4/modules/imgproc/doc/filtering.html?highlight=scharr#scharr
+
+Canny edge detector :
+http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_canny/py_canny.html#canny
+
+Template matching :
+http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_template_matching/py_template_matching.html#py-template-matching
+http://docs.opencv.org/2.4/modules/imgproc/doc/object_detection.html?highlight=matchtemplate#matchtemplate
+http://www.pyimagesearch.com/2015/01/26/multi-scale-template-matching-using-python-opencv/
+(For Where's Waldo solution http://machinelearningmastery.com/using-opencv-python-and-template-matching-to-play-wheres-waldo/)
+
+Hough Transforms :
+http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html
+http://docs.opencv.org/2.4/modules/imgproc/doc/feature_detection.html?highlight=houghlines#houghlines
+http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghcircles/py_houghcircles.html
+http://docs.opencv.org/2.4/modules/imgproc/doc/feature_detection.html?highlight=houghcircles#houghcircles
+
+Jupyter notebooks :
+
+The cvg git repository has jupyter notebooks for almost all the topics of opencv.
+Give the ones you've already done a look if you haven't yet.
+
+https://github.com/iitmcvg/Content/tree/master/Computer%20Vision
+
+

@@ -1,0 +1,32 @@
+###############################################################################
+                          ****** VISTAAR-2017 ********
+			  ****** PS1 JULY-4 **********
+			  ****** Advanced Python *****
+
+              ------------------ ROOT FINDING --------------
+
+Introduction :
+
+In this we PS we look at methods to find roots to a functions.
+
+We look at 3 methods:
+1) Bisection
+2) Newton-Raphson 
+3) Secant Method
+
+Bisection is a non-gradient based method while the other two are gradient based.You can look at the corresponding iterations for these methods in the PDF attached. These methods are well explained in the PS.
+
+**Try to use as many functions from SciPy module as possible..
+
+Question:
+The speed v of a Saturn V rocket in vertical flight near the surface of the Earth can be approximated as
+v = u (ln M0/(M0−m*t)) -g*t
+where,
+
+u = 2510 m/s is the velocity of the exhaust relative to the rocket
+M0 = 2.8 × 106 Kg is the mass of the rocket at liftoff
+m = 13.3 × 103 Kg/s is the rate of fuel consumption
+g = 9.81 m/s2 is the gravitational acceleration
+t is the time measured from liftoff.
+
+Determine the time ‘t’(to a precision of 4 decimal places) when the rocket reaches the speed of sound (335 m/s). Code all the above desribed ways of solving. Use sys.argv to choose the method to arrive at the root. Plot all the values of v encountered while solving corresponding to the time t at which it is encountered.

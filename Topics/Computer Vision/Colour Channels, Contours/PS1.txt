@@ -1,0 +1,14 @@
+#############################################################################################
+                   ****** VISTAAR-2017 ******* 
+				    	  ***** JULY-5 ******
+		            **** OpenCV Problem Statements ****
+
+1. Convert a colour image into grayscale using numpy and matplotlib given the formula:
+   Y = 0.299 R + 0.587 G + 0.114 B (where R,G,B are the red,green and blue channels respectively)
+   Use the matplotlib.image library for reading images.
+
+2. Given a colour image, split it into four quadrants such that:
+   top-left is blue,top-right is green,bottom-left is red and bottom-right is grayscale. 
+   Save the resulting image.
+
+   (Remember: matplotlib follows RGB format whereas OpenCV follows BGR format!)

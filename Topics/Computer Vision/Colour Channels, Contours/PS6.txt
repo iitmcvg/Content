@@ -1,0 +1,25 @@
+#############################################################################################
+                   ****** VISTAAR-2017 ******* 
+				    	  ***** JULY-6 ******
+		            **** OpenCV Problem Statements ****
+
+
+1.  Given an image with many polygons in it, you have to estimate the number of sides
+	of the polygon, the angles of the polygon, and whether the polygon is a regular
+	polygon. Note that the polygons may be with or without a border.
+
+	Input Format:
+	<program> <input_image>
+	Example: program input.jpg
+
+	Output Format:
+	n
+	n​ 1​ d​ 11​ d​ 12​ ... d​ 1n1 Y/N
+	n​ 2​ d​ 21​ d​ 22​ ... d​ 2n2 Y/N
+
+	n: Number of polygons
+	n​ i​ :Number of sides in ith polygon
+	dij: jth angle of ith polygon
+	Y/N: Whether or not polygon is regular
+
+	SOURCE: Shaastra 2017 Mixels
