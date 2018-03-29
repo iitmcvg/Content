@@ -1,14 +1,13 @@
 # ReadMe
 
-_Computer Vision and Intelligence Group, IIT Madras_
+*Computer Vision and Intelligence Group, IIT Madras*
 
 <img src=/avatar.png width=300 height=300></img>
-
-Blog: [iitmcvg.github.io](http://iitmcvg.github.io/)
-----
+---
+Blog:  [iitmcvg.github.io](http://iitmcvg.github.io/)
 
 This repository contains content that we use for various topics and sessions.
----
+
 ## Folder Structure
 
 There are two folders:
