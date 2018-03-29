@@ -1,8 +1,9 @@
-# README
+# ReadMe
 
 _Computer Vision and Intelligence Group, IIT Madras_
 
-![Avatar](avatar.png)
+<img src=/avatar.png width=300 height=300></img>
+
 Blog: [iitmcvg.github.io](http://iitmcvg.github.io/)
 ----
 
