@@ -1,0 +1,35 @@
+                            DOCUMENT REGISTRATION: ANGLE CORRECTION
+
+PS:
+When printed documents are scanned, it hardly is the case that the image is perfectly aligned. There will almost always be rotaions, translations or perspective distortions.
+This PS is designed to address rotations and how to correct them.
+
+Method 1: Hough Lines
+
+Whenever there are dominant lines in a document(mostly they are parallel too), one can use them to arrive at a crude estimate of the inclination angle.
+Task: Use Hough Lines to detect lines and calculate the angle of inclination.
+Tips: Visualise the detected lines always. It comes handy. Remember, a lot of parameter tweaking might be required before you stumble upon results.
+Hint: The slopes!
+
+Method 2: Smart Iterative Search!
+
+This method is based on the paper attached(kavallieratou2002.pdf) with the PS. Whenever we use iterative methods, we need an error metric to decide the optimal parameter value. In this case, the parameter will be the unknown ie the rotation angle.
+This will be the first of the many tasks where you'll have to read through research papers and arrive at solutions by yourselves. The actual problem here is to figure out what the error metric is. Good luck!
+Task: Using the methods discussed in the paper, estimate the rotaion angle. And btw, try to optimise your search.
+Tips: Read up the paper and try to approximate the metrics with simpler ones. Don't try to straightaway use the one mentioned in the paper(It's a pain in the !).Simple approximations will suffice to achieve +/- 0.1 degree error.
+Hints: It's absolutely simple!
+
+Bonus:
+Try to come up with an algorithm other than these through research papers( or on your own; we'd love that!) and compare your algorithm with these.
+
+Results:
+Rotate the test image by known angles from -25 to +25 in steps of 0.1 degrees.This will be your test dataset. Test your algorithms on these known rotation angles and compute the errors for each case. Submit the errors for each case in a text document.
+Use os/glob module to iterate through the images.
+
+Don't forget to have fun guys!
+We'd encourage you to work in groups. At the end of the day, we want it to be An Experience for you all.
+If you're interested, we could go a step further to correct translation and perspective distortions in the document images and try to build an OCR system.
+
+And, for the ones who are (still) looking for the test document, sorry, I haven't attched any. Google it up. Ideally, any random printed document should be correctable by your algo! I'd recommend a high-resolution, high-contrast page with dominant lines as a test image.
+
+-Pradeep Gopalakrishnan!

@@ -1,0 +1,40 @@
+#############################################################################################
+                   ****** VISTAAR-2017 ******* 
+				    	  ***** JULY-4 ******
+		            **** Advanced Python Modules ****
+			    		  **** RESOURCES ****
+					                       
+					                       
+					                         
+					    **** Python File Handling ****   
+					   
+					                       
+http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python					                       
+
+
+                         **** Python Modules ****
+					                       					                       
+					                       
+1.OS        I. https://www.tutorialspoint.com/python/os_file_methods.htm (os.access
+            ,os.listdir,os.system,os.popen are the ones which are most frequently used, 
+            Have a glace over the other modules as well, but don't waste much time on it) 
+                      
+            II. http://www.tutorialspoint.com/python/os_path_methods.htm (check out 
+            os.path.exists,os.path.join,os.path.isdir)
+
+2.RANDOM -  http://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python
+				                       
+3.SYS(argv)-http://www.pythonforbeginners.com/system/python-sys-argv					                       
+					              
+4.MATH 	   -https://docs.python.org/2/library/math.html (Have a Quick glance)			                           
+
+                        
+                         **** Additional Resources (Optional) ****
+                         					                       
+1.REGEX   -       http://www.tldp.org/LDP/abs/html/x17129.html	                  
+2.RE In Python  - https://www.tutorialspoint.com/python/python_reg_expressions.htm     
+					                       
+					                                         
+################################################################################################				
+
+				

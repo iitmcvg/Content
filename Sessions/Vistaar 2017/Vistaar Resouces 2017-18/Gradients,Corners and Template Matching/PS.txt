@@ -1,0 +1,28 @@
+
+PROBLEM STATEMENTS FOR JULY 7th
+
+1)
+Gradients and edges in an image are usually used to discard the large amount of irrelevant data in an image and consider only what is necessary for solving the problem.
+Gradients are used in edge detection as well.
+Find the Sobel, Scharr and Laplacian derivatives and the edges with the canny edge detector for the image given(img1.jpg).
+Play with the possible arguments for the functions.
+
+2)
+Corners are among the best features to find while attempting to solve practical problems.
+Harris and Shi-Tomasi detector corner detectors are a part of opencv.
+Find the corners in img1.jpg using both and compare the two methods by solving PS_July_7_CD.ipynb 
+
+3)
+Template matching is a brute-force searching method to find a particular object in an image.
+It can be made scale-invariant but fails when the orientation of the object is changed.
+Find the location of the center of the ball in the given football field.
+(Extra : Try solving Where's Waldo? with template matching)
+
+4)
+Refer to https://docs.google.com/document/d/13CJgtDr8kIX9KIrs6BYFDF6-N7cfAyX0R54v8CWoqmQ/pub?embedded=true
+
+5)
+Given an image(img3.jpg) with many coloured shapes find and display the number of red, green and blue circles respectively.
+(Hint : Use HSV and Hough transform)
+
+

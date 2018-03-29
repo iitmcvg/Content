@@ -1,0 +1,47 @@
+#############################################################################################
+                     ****** VISTAAR-2017 ******* 
+					      ***** PS1 JULY-4 ******
+					      **** Advanced Python ****
+
+            -----------------  Least Square Fitting  -------------------------------
+ 
+Introduction:
+
+1.  Least square fitting is a mathematical procedure for finding the best-fitting curve to a 
+given set of points
+
+2.  Curve is found by minimizing the sum of the squares of the offsets (”the residuals”) of 
+the given points from the curve.
+
+3.  The offsets can be either vertical or perpendicular offsets. In practice, the vertical 
+offsets from a line are almost always minimized instead of the perpendicular offsets
+
+4.  Vertical least squares fitting proceeds by finding the sum of the squares of the vertical 
+deviations R^2 of a set of n data points R^2 = sigma[yi − f(a, b)]^2 ; f(a, b) = ax + b
+
+5.  Applying the condition that R^2 to be minimum, we get the solutions for a and b.
+Have a look at this page http://mathworld.wolfram.com/LeastSquaresFitting.html for graphical
+explanation and the formulas for a and b.
+
+Questions:
+
+1.  An experimentalist wants to empirically find the value of the ’g’ using a simple pendulum
+experiment. A simple pendulum consists of a point mass suspended at the end of a cord of zero
+mass. A close approximation to this is a small metal mass on a long, light string or thread. 
+In this experiment the time for one complete swing, called the period is noted for various
+length of the cord . Readings of the experiment is given in the text file dat1.txt (First column
+is square root of length,second column is Time period). Write a python program which takes the 
+name of the input file as an agrument (HINT: sys.argv ) and finds the best fit curve (Use the 
+formula) and writes the co-efficients of the line (a and b) to another file.
+
+2.  For another experiment, the outcome of an experiment (Y) is given in the attached dat2.txt file.
+The input(X) is varied from 0 to 100 in steps of 0.5. Find the linear best fit curve for the same.(
+Similar to the prev question take the file name as an argument (make it as an habit in the future) and
+write the output to a text file.
+
+3. For both the questions, plot the data points along with the fit line.
+
+                              Have Fun Solving The PS !!!
+                              
+Reference : EE1103 Numerical Methods Assignment
+################################################################################################				
