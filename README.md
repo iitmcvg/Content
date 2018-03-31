@@ -32,4 +32,10 @@ You can find our contact details over [here](http://iitmcvg.github.io/).
 
 Here are some external resources we found to be rather helpful:
 
-1.
+1. The _awesome_ series of resources across computer vision, machine learning, deep learning, reinforcement learning and natural language processing. Credits to the relevant repository owners. We've in addition forked them over to the resources section:
+    * [awesome computer vision](https://github.com/jbhuang0604/awesome-computer-vision)
+    * [awesome deep vision](https://github.com/kjw0612/awesome-deep-vision)
+    * [awesome NLP](https://github.com/keon/awesome-nlp)
+    * [awesome RL](https://github.com/aikorea/awesome-rl)
+
+You can find these under the References folder too.
