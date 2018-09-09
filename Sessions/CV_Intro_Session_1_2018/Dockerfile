@@ -58,9 +58,10 @@ COPY update_sess.sh /update_sess.sh
 
 # Repo for session
 RUN git clone https://github.com/iitmcvg/Content.git
-RUN mv -r Content/Sessions/CV_Intro_Session_1_2018 / && rm -rf /Content
-RUN mv /CV_Intro_Session_1_2018 /session && chmod a+rwx /session 
+RUN chmod a+rw /Content 
+WORKDIR /Content/Sessions/CV_Intro_Session_1_2018
+#RUN mv /CV_Intro_Session_1_2018 /session && chmod a+rwx /session 
 RUN mkdir /.local && chmod a+rwx /.local
 
-WORKDIR /session
+#WORKDIR /session
 CMD ["bash"]
