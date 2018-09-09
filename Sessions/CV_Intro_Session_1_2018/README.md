@@ -10,6 +10,12 @@ Run the container (once you've downloaded docker):
 docker run -it --name cvi --rm -p 8888:8888 iitmcvg/session:intro_CV bash
 ```
 
+Incase you need to update session contents:
+```
+cd /
+bash update_sess.sh
+```
+
 The image has the following tools:
 
 * OpenCV 3.4.1
