@@ -6,9 +6,19 @@ Clone the repo here or download it as a zip file
 
 [Link](https://github.com/iitmcvg/Content)
 
+From the base folder, 
+
 ```
-docker run -it --name cvi -p 8888:8888 ${pwd}mnt 
+docker run -it --name cvi -p 8888:8888 $(pwd)/Sessions/CV_Intro_Session_1_2018/:/session iitmcvg/session:intro_CV bash
 ```
+
+The image has the following tools:
+
+* OpenCV 3.4.1
+* Tensorflow 1.10
+* Keras
+* Jupyter
+* Scientific python: Numpy, Scipy, Matplotlib ... etc.
 
 ## Getting Started with Docker 
 
