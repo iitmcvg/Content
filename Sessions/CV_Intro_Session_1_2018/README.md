@@ -19,8 +19,9 @@ jupyter notebook --ip=0.0.0.0 --allow-root
 
 Incase you need to update session contents:
 ```
-cd /
-bash update_sess.sh
+cd .. & cd ..
+git pull
+cd Sessions/CV_Intro_Session_1_2018
 ```
 
 The image has the following tools:
