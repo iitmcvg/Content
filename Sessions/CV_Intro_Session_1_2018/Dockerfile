@@ -53,8 +53,5 @@ RUN apt update && apt install -y libsm6 libxext6 libgtk2.0-dev
 RUN  apt-get install -y git vim  curl
 RUN ${PIP} install h5py natsort argparse tqdm html5lib bleach opencv-contrib-python
 
-RUN git clone https://github.com/iitmcvg/Content.git 
-RUN mv Content/Sessions/CV_Intro_Session_1_2018/ /session && rm -rf /Content
-
 WORKDIR /session
 CMD ["bash"]
