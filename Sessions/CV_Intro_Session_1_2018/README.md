@@ -9,7 +9,7 @@ Clone the repo here or download it as a zip file
 From the base folder, 
 
 ```
-docker run -it --name cvi -p 8888:8888 $(pwd)/Sessions/CV_Intro_Session_1_2018/:/session iitmcvg/session:intro_CV bash
+docker run -it --name cvi -p 8888:8888 $(pwd):/session iitmcvg/session:intro_CV bash
 ```
 
 The image has the following tools:
@@ -21,6 +21,14 @@ The image has the following tools:
 * Scientific python: Numpy, Scipy, Matplotlib ... etc.
 
 ## Getting Started with Docker 
+
+Firstly, download a compatible version of docker from here:
+
+* For installation of Docker in Windows - https://download.docker.com/win/stable/DockerToolbox.exe  
+* For installation of Docker in Linux(Ubuntu) - https://docs.docker.com/install/linux/docker-ce/ubuntu/   
+* For installation of Docker in Mac -   
+https://download.docker.com/mac/stable/DockerToolbox.pkg  
+
 
 ### Part-1 
 
