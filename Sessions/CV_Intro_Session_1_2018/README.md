@@ -2,13 +2,9 @@
 
 ## Running the container
 
-Clone the repo here or download it as a zip file
-
-[Link](https://github.com/iitmcvg/Content)
+Update (9th Sept 2018): Removed repo dependencies.
 
 ```
-git clone https://github.com/iitmcvg/Content.git
-cd Content
 docker run -it --name cvi --rm -p 8888:8888 -v $(pwd):/session iitmcvg/session:intro_CV bash
 ```
 
