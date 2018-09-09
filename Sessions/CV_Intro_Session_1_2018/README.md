@@ -9,7 +9,7 @@ Clone the repo here or download it as a zip file
 From the base folder, 
 
 ```
-docker run -it --name cvi -p 8888:8888 -v $(pwd):/session iitmcvg/session:intro_CV bash
+docker run -it --name cvi --rm -p 8888:8888 -v $(pwd):/session iitmcvg/session:intro_CV bash
 ```
 
 The image has the following tools:
