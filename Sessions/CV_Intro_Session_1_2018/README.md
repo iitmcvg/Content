@@ -4,6 +4,8 @@
 
 Update (9th Sept 2018): Removed repo dependencies.
 
+Run the container (once you've downloaded docker):
+
 ```
 docker run -it --name cvi --rm -p 8888:8888 -v $(pwd):/session iitmcvg/session:intro_CV bash
 ```
@@ -20,7 +22,7 @@ The image has the following tools:
 
 Firstly, download a compatible version of docker from here:
 
-* For installation of Docker in Windows - https://download.docker.com/win/stable/DockerToolbox.exe  
+* For installation of Docker in Windows - https://download.docker.com/win/stable/DockerToolbox.exe 
 * For installation of Docker in Linux(Ubuntu) - https://docs.docker.com/install/linux/docker-ce/ubuntu/   
 * For installation of Docker in Mac -   
 https://download.docker.com/mac/stable/DockerToolbox.pkg  
