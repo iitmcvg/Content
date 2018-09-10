@@ -80,12 +80,6 @@ root@5e3ca2f04d54:/Content/Sessions/CV_Intro_Session_1_2018# jupyter notebook --
         http://(5e3ca2f04d54 or 127.0.0.1):8888/?token=56d48e36ca256e00823506c4f2cf1fc89264a3ba025d3307
 ```
 
-```
-Copy/paste this URL into your browser when you connect for the first time, to login with a token:
-
-http://(f5e1f770bfe6 or 127.0.0.1) :8888/?token=e99ef0776ac2c2d848d580e7e86d10a5f8e187fe20be8ae3
-```
-
 * Copy this URL, replace everything within () to the IP address that you noted down in the first step and paste this new URL in your browser.
 
 For example, http://192.168.99.100:8888/?token=e99ef0776ac2c2d848d580e7e86d10a5f8e187fe20be8ae3
