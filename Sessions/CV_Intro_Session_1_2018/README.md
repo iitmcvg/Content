@@ -1,32 +1,6 @@
 # README
 
-## Running the container
 
-Run,
-
-```
-docker run -it --name cvi --rm -p 8888:8888 iitmcvg/session:intro_CV bash
-```
-
-To update the container image, run:
-```
-docker pull iitmcvg/session:intro_CV
-```
-
-To update the repo, run:
-```
-cd .. & cd ..
-git pull
-cd Sessions/CV_Intro_Session_1_2018/
-```
-
-The image has the following tools:
-
-* OpenCV 3.4.1
-* Tensorflow 1.10
-* Keras
-* Jupyter
-* Scientific python: Numpy, Scipy, Matplotlib ... etc.
 
 ## Getting Started with Docker 
 
@@ -65,11 +39,16 @@ $ docker run hello-world
 
  For more examples and ideas, visit: https://docs.docker.com/userguide/
 
-### Part-2
+
+## Running the container
 
 * Run the command docker-machine ip and make a note of the IP address shown as output.
 
-* Type the docker run -p 8888:8888 siva1911/session command and press RETURN.
+Then run,
+
+```
+docker run -it --name cvi --rm -p 8888:8888 iitmcvg/session:intro_CV bash
+```
 
 * The command does some work for you, downloading takes around 5 minutes with good internet connectivity. Be patient and if everything runs well, the command’s output looks like this:
 
@@ -82,4 +61,22 @@ http://(f5e1f770bfe6 or 127.0.0.1) :8888/?token=e99ef0776ac2c2d848d580e7e86d10a5
 
 For example, if pasting something like this onto the browser opens a screen as shown below, you are ready to go.  http://192.168.99.100:8888/?token=e99ef0776ac2c2d848d580e7e86d10a5f8e187fe20be8ae3
 
+To update the container image, run:
+```
+docker pull iitmcvg/session:intro_CV
+```
 
+To update the repo, run:
+```
+cd .. & cd ..
+git pull
+cd Sessions/CV_Intro_Session_1_2018/
+```
+
+The image has the following tools:
+
+* OpenCV 3.4.1
+* Tensorflow 1.10
+* Keras
+* Jupyter
+* Scientific python: Numpy, Scipy, Matplotlib ... etc.
