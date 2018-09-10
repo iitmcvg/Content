@@ -1,37 +1,5 @@
 # README
 
-## Running the container
-
-Update (9th Sept 2018): Removed repo dependencies.
-
-Run the container (once you've downloaded docker):
-
-```
-docker run -it --name cvi --rm -p 8888:8888 iitmcvg/session:intro_CV bash
-```
-
-You should now see a terminal shell corresponding to the container (eg: root@xxxxxx)
-
-Run jupyter now:
-```
-jupyter notebook --ip=0.0.0.0 --allow-root
-```
-
-Incase you need to update session contents:
-```
-cd .. & cd ..
-git pull
-cd Sessions/CV_Intro_Session_1_2018
-```
-
-The image has the following tools:
-
-* OpenCV 3.4.1
-* Tensorflow 1.10
-* Keras
-* Jupyter
-* Scientific python: Numpy, Scipy, Matplotlib ... etc.
-
 ## Getting Started with Docker 
 
 Firstly, download a compatible version of docker from here:
@@ -42,17 +10,16 @@ Firstly, download a compatible version of docker from here:
 https://download.docker.com/mac/stable/DockerToolbox.pkg  
 
 
-### Part-1 
+### Installation
 
-* The installer adds Docker Toolbox, VirtualBox, and Kinematic to your Applications folder.   
+* Before installation, additional software packages like Kitematic and Virtualbox can be unchecked. 
+* The installer adds Docker Toolbox to your Applications folder.   
 * On your Desktop, find the Docker QuickStart Terminal icon.  
 * Click the Docker QuickStart icon to launch a pre-configured Docker Toolbox terminal.    
 * If the system displays a User Account Control prompt to allow VirtualBox to make changes to your computer. Choose Yes.  
 * The terminal does several things to set up Docker Toolbox for you. When it is done, the terminal displays the $ prompt.  
-
 * Make the terminal active by clicking your mouse next to the $ prompt.
 * The prompt is traditionally a $ dollar sign. You type commands into the command line which is the area after the prompt. Your cursor is indicated by a highlighted area or a | that appears in the command line. After typing a command, always press RETURN.
-
 
 * Type the docker run hello-world command and press RETURN.
 * The command does some work for you, if everything runs well, the command’s output looks like this:
@@ -64,26 +31,50 @@ $ docker run hello-world
  91c95931e552: Download complete
 … … … …
 ```
- To try something more ambitious, you can run an Ubuntu container with:
-` docker run -it ubuntu bash`
 
- For more examples and ideas, visit: https://docs.docker.com/userguide/
+### Running the Container
 
-### Part-2
+* Run the command **docker-machine ip** and make a note of the IP address shown as output.
 
-* Run the command docker-machine ip and make a note of the IP address shown as output.
+* Run the container:
+```
+docker run -it --name cvi --rm -p 8888:8888 iitmcvg/session:intro_CV bash
+```
 
-* Type the docker run -p 8888:8888 siva1911/session command and press RETURN.
+The image has the following tools:
 
-* The command does some work for you, downloading takes around 5 minutes with good internet connectivity. Be patient and if everything runs well, the command’s output looks like this:
+* OpenCV 3.4.1
+* Tensorflow 1.10
+* Keras
+* Jupyter
+* Scientific python: Numpy, Scipy, Matplotlib ... etc.
 
-* Copy/paste this URL into your browser when you connect for the first time, to login with a token:
+You should now see a terminal shell corresponding to the container (eg: root@xxxxxx)
+
+* Update session contents by giving the following command:
+
+```
+git pull
+```
+
+* Now, run Jupyter with the following command.
+
+```
+jupyter notebook --ip=0.0.0.0 --allow-root
+```
+
+* The command does some work for you. Downloading takes around 5 minutes. Be patient and if everything goes well, the command’s output looks like this:
+
+```
+Copy/paste this URL into your browser when you connect for the first time, to login with a token:
 
 http://(f5e1f770bfe6 or 127.0.0.1) :8888/?token=e99ef0776ac2c2d848d580e7e86d10a5f8e187fe20be8ae3
+```
 
-* Copy this URL, replace everything within () to the IP address that you noted down in the first step* and paste this new URL in your browser.
+* Copy this URL, replace everything within () to the IP address that you noted down in the first step and paste this new URL in your browser.
 
+For example, http://192.168.99.100:8888/?token=e99ef0776ac2c2d848d580e7e86d10a5f8e187fe20be8ae3
 
-For example, if pasting something like this onto the browser opens a screen as shown below, you are ready to go.  http://192.168.99.100:8888/?token=e99ef0776ac2c2d848d580e7e86d10a5f8e187fe20be8ae3
+* You are good to go if you Jupyter Notebooks opens up in your browser.
 
 
