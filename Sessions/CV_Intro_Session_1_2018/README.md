@@ -21,7 +21,7 @@ https://download.docker.com/mac/stable/DockerToolbox.pkg
 * Make the terminal active by clicking your mouse next to the $ prompt.
 * The prompt is traditionally a $ dollar sign. You type commands into the command line which is the area after the prompt. Your cursor is indicated by a highlighted area or a | that appears in the command line. After typing a command, always press RETURN.
 
-* Type the docker run hello-world command and press RETURN.
+* Type the **docker run hello-world** command and press RETURN.
 * The command does some work for you, if everything runs well, the command’s output looks like this:
 
 ```
@@ -43,27 +43,27 @@ docker run -it --name cvi --rm -p 8888:8888 iitmcvg/session:intro_CV bash
 
 The image has the following tools:
 
-* OpenCV 3.4.1
-* Tensorflow 1.10
-* Keras
-* Jupyter
-* Scientific python: Numpy, Scipy, Matplotlib ... etc.
+  * OpenCV 3.4.1
+  * Tensorflow 1.10
+  * Keras
+  * Jupyter
+  * Scientific python: Numpy, Scipy, Matplotlib ... etc.
 
-You should now see a terminal shell corresponding to the container (eg: root@xxxxxx)
+* The command does some work for you. Downloading takes around 5 minutes. Be patient. Once the extraction is complete, you should see a terminal shell corresponding to the container (eg: root@xxxxxx).
 
-* Update session contents by giving the following command:
+* Now, update session contents by giving the following command:
 
 ```
 git pull
 ```
 
-* Now, run Jupyter with the following command.
+* Run Jupyter with the following command.
 
 ```
 jupyter notebook --ip=0.0.0.0 --allow-root
 ```
 
-* The command does some work for you. Downloading takes around 5 minutes. Be patient and if everything goes well, the command’s output looks like this:
+* If everything goes well, the command’s output should look like this:
 
 ```
 Copy/paste this URL into your browser when you connect for the first time, to login with a token:
@@ -75,6 +75,6 @@ http://(f5e1f770bfe6 or 127.0.0.1) :8888/?token=e99ef0776ac2c2d848d580e7e86d10a5
 
 For example, http://192.168.99.100:8888/?token=e99ef0776ac2c2d848d580e7e86d10a5f8e187fe20be8ae3
 
-* You are good to go if you Jupyter Notebooks opens up in your browser.
+* You are good to go if Jupyter Notebooks successfully opens up in your browser.
 
 
