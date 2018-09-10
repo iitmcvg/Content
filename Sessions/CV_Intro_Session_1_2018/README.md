@@ -66,6 +66,21 @@ jupyter notebook --ip=0.0.0.0 --allow-root
 * If everything goes well, the command’s output should look like this:
 
 ```
+root@5e3ca2f04d54:/Content/Sessions/CV_Intro_Session_1_2018# jupyter notebook --ip=0.0.0.0 --allow-root
+[I 13:42:26.419 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 13:42:26.667 NotebookApp] Serving notebooks from local directory: /Content/Sessions/CV_Intro_Session_1_2018
+[I 13:42:26.667 NotebookApp] The Jupyter Notebook is running at:
+[I 13:42:26.667 NotebookApp] http://(5e3ca2f04d54 or 127.0.0.1):8888/?token=56d48e36ca256e00823506c4f2cf1fc89264a3ba025d3307
+[I 13:42:26.667 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 13:42:26.668 NotebookApp] No web browser found: could not locate runnable browser.
+[C 13:42:26.669 NotebookApp]
+
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://(5e3ca2f04d54 or 127.0.0.1):8888/?token=56d48e36ca256e00823506c4f2cf1fc89264a3ba025d3307
+```
+
+```
 Copy/paste this URL into your browser when you connect for the first time, to login with a token:
 
 http://(f5e1f770bfe6 or 127.0.0.1) :8888/?token=e99ef0776ac2c2d848d580e7e86d10a5f8e187fe20be8ae3
